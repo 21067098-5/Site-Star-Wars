@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Planets - Patrick Seus</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="assets/millennium-falcon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/star-wars-logo.png" alt="logo" class="logo-img"/> 
+                <span class="logo-text">Planets</span>
+            </div>
+        </a>
+
+
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Personagens</li>
+                </a>
+                <a href="./planets.html" target="_blank">
+                    <li>Planetas</li>
+                </a>
+                <a href="./starships.html" target="_blank">
+                    <li>Naves</li>
+                </a>
+            </ul>
+        </nav>
+
+
+        <div class="social-media">
+
+            <a href="https://www.instagram.com/p.seus/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/patrick.seus.92" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/21067098-5" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/patrick-caruccio-seus-8800b7257/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="main-container-planet">
+
+        <h2>Conheca todos os planetas de star wars em um so lugar</h2>
+
+        <div class="main-content-planet" id="main-content-planet"></div>
+
+
+        <div class="planetal" id="planetal" onclick="hidePlanetal()">
+            <div class="planetal-content" id="planetal-content"></div>
+        </div>
+
+        <div class="buttons-planet">
+            <button id="back-button-planet" disabled>Anterior</button>
+            <button id="next-button-planet" disabled>Próxima</button>
+        </div>
+
+    </div>
+
+    <footer>
+        
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Personagens</li>
+                </a>
+                <a href="./planets.html" target="_blank">
+                    <li>Planetas</li>
+                </a>
+                <a href="./starships.html" target="_blank">
+                    <li>Naves</li>
+                </a>
+            </ul>
+        </nav>
+
+        <p class="footer-logo">Star Wars Planets</p>
+        <p class="copyrigth">Desenvolvido por: &copy; Patrick Seus</p>
+
+    </footer>
+
+
+    <script src="https://kit.fontawesome.com/5136c99042.js" crossorigin="anonymous"></script>
+    <script src="./planets.js"></script>
+</body>
+</html>
